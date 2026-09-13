@@ -1,8 +1,8 @@
 [nightwatch (v10-shadow-deploy worktree)] path: /root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy/research/kraken_fee_profiles.json
 [nightwatch (v10-shadow-deploy worktree)] last_modified_utc: 2026-09-13T06:15:05.675529+00:00
-[nightwatch (v10-shadow-deploy worktree)] age_hours: 5.6
+[nightwatch (v10-shadow-deploy worktree)] age_hours: 12.2
 [nightwatch (v10-shadow-deploy worktree)] stale_flag: no
 [atlas20 (atlas20 worktree)] path: /root/georgeos/kraken-gateway.worktrees/atlas20/research/kraken_fee_profiles.json
 [atlas20 (atlas20 worktree)] last_modified_utc: 2026-08-23T21:38:46.521603+00:00
-[atlas20 (atlas20 worktree)] age_hours: 494.2
+[atlas20 (atlas20 worktree)] age_hours: 500.9
 [atlas20 (atlas20 worktree)] stale_flag: YES - over 48h old
