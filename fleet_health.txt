@@ -1,4 +1,4 @@
-collected_utc: 2026-09-14T08:01:56.453288+00:00
+collected_utc: 2026-09-14T08:01:57.733736+00:00
 
 === PROCESSES (cgroup/cwd: both bots share a module name) ===
 pid=608848 uptime_h=165.0 cpu=0.0 mem=0.0
@@ -66,10 +66,10 @@ pid=821979 uptime_h=71.5 cpu=79.9 mem=4.7
 
 === LOG FRESHNESS + ERROR SIGNATURES (last 500 lines) ===
 /root/georgeos/kraken-gateway/logs/georgebot.log
-    age_hours=383.9  errors={'error': 60, '401': 60}
+    age_hours=383.9  errors=none
     last_line=[2026-08-29 08:07:11] Notification send failed: SYNTHETIC_TELEGRAM_DOWN
 /root/georgeos/kraken-gateway.worktrees/atlas20/logs/georgebot.log
-    age_hours=101.5  errors={'error': 999, '401': 998}
+    age_hours=101.5  errors=none
     last_line=[2026-09-10 02:29:29] Telegram send failure: Telegram HTTP error 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 /root/atlas20_storage/telegram_cron.log
     age_hours=513.1  errors=none
@@ -87,7 +87,7 @@ pid=821979 uptime_h=71.5 cpu=79.9 mem=4.7
     age_hours=0.0  errors=none
     last_line=✅ Circuit breaker check: 0 tripped
 /root/mtf_observer_run.log
-    age_hours=0.5  errors={'error': 500}
+    age_hours=0.5  errors=none
     last_line={'attempted': 71, 'complete': 71, 'stale': 0, 'insufficient': 0, 'api_error': 0, 'records': 71}
 /root/fleet_integrity_audit.log
     age_hours=3.0  errors=none
@@ -144,3 +144,77 @@ pid=821979 uptime_h=71.5 cpu=79.9 mem=4.7
 /root/immutable_evidence/signals.jsonl	0 lines	age_hours=577.0
 /root/immutable_evidence/wick_shadow.jsonl	21 lines	age_hours=14.0
 /root/immutable_evidence/wick_shadow_live.jsonl	10221 lines	age_hours=0.1
+
+=== SYSTEMD gbot UNITS ===
+gbot-bear-capture.service                                                                                              loaded    active     running         GBOT Bear Regime Data Capture (PAPER, execution disabled)
+gbot-event-alerter.service                                                                                             loaded    inactive   dead            GBOT macro event alerter (notification only)
+gbot-evidence-backup.service                                                                                           loaded    inactive   dead            GBOT evidence ledger daily backup
+gbot-fee-profile-refresh.service                                                                                       loaded    inactive   dead            Refresh Kraken account fee profile (rolling 30-day tier)
+gbot-l2-collector.service                                                                                              loaded    inactive   dead            GBOT L2 order-book snapshot collector (READ-ONLY, public endpoint)
+gbot-margin-bot.service                                                                                                loaded    active     running         GBOT Margin Short Bot (SHADOW mode)
+gbot-margin-calibration.service                                                                                        loaded    inactive   dead            GBOT Margin Full Score Calibration Tracker
+gbot-margin-outcomes.service                                                                                           loaded    inactive   dead            GBOT Margin Research Outcome Tracker
+gbot-margin-research.service                                                                                           loaded    activating start     start GBOT Margin Full Intelligence Research Lane
+gbot-nightwatch.service                                                                                                loaded    active     running         GBOT Night Watch (PAPER mode) -
+gbot-phase1-live.service                                                                                               loaded    active     running         GBOT Phase1 Dedicated Runtime
+gbot-phase1-memory-snapshot.service                                                                                    loaded    inactive   dead            GBOT Phase1 memory snapshot
+gbot-phase1-telegram.service                                                                                           loaded    active     running         GBOT Phase1 Telegram Notification Sidecar
+gbot-phase1-watchdog.service                                                                                           loaded    inactive   dead            GBOT Phase1 watchdog
+gbot-rejection-ledger.service                                                                                          loaded    inactive   dead            GBOT prospective rejection ledger harvester (read-only, journald)
+gbot-v11-crawl.service                                                                                                 loaded    inactive   dead            GBOT v11 serialized deep-history crawl
+gbot-v11-mtf.service                                                                                                   loaded    inactive   dead            GBOT v11 trades->MTF bars converter
+gbot-watchlist.service                                                                                                 loaded    inactive   dead            GBOT Daily Watchlist (descriptive, manual-trading aid)
+gbot-wick-shadow.service                                                                                               loaded    inactive   dead            GBOT wick-aware exit shadow evaluator (READ-ONLY)
+v11-r11-zec-1788217609.service                                                                                         loaded    active     exited          [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl ZECUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
+v11-r12-xbt-1788217649.service                                                                                         loaded    active     exited          [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl XBTUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
+v11-r13-link-1788217696.service                                                                                        loaded    active     exited          [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl LINKUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
+gbot-event-alerter.timer                                                                                               loaded    active     waiting         Check macro calendar every 6h
+gbot-evidence-backup.timer                                                                                             loaded    active     waiting         Daily GBOT evidence backup
+gbot-fee-profile-refresh.timer                                                                                         loaded    active     waiting         Daily Kraken fee tier refresh
+gbot-l2-collector.timer                                                                                                loaded    active     waiting         Collect L2 snapshots
+gbot-margin-calibration.timer                                                                                          loaded    active     waiting         Evaluate all GBOT Margin intelligence scores
+gbot-margin-outcomes.timer                                                                                             loaded    active     waiting         Evaluate matured GBOT Margin research signals
+gbot-margin-research.timer                                                                                             loaded    active     running         Run GBOT Margin Intelligence Research after each 15M candle
+gbot-phase1-memory-snapshot.timer                                                                                      loaded    active     waiting         GBOT Phase1 memory snapshot every five minutes
+gbot-phase1-watchdog.timer                                                                                             loaded    active     waiting         Phase1 watchdog every minute
+gbot-rejection-ledger.timer                                                                                            loaded    active     waiting         Harvest rejection ledger every 15 minutes
+gbot-v11-mtf.timer                                                                                                     loaded    active     waiting         Regenerate v11 MTF bars 30min after each crawl pass
+gbot-watchlist.timer                                                                                                   loaded    active     waiting         Run GBOT watchlist daily
+gbot-wick-shadow.timer                                                                                                 loaded    active     waiting         Run wick shadow evaluator daily
+--- failed ---
+
+=== RETIREMENT NOTES ===
+--- /etc/systemd/system/gbot-atlas20.service.d/why-retired.conf
+# 2026-09-01 RETIRED. Pre-registered kill criterion MET AND FAILED.
+# CRITERION set in advance: halt if WR < 25% at n=40 closed.
+# MEASURED at n=40: WR 10.0%, PF 0.21, net -$2,505.37. Results 37 STOP / 3 TP2,
+#   zero TP1, zero TP3. 18/40 reached 0.5R, 13/40 reached 1R.
+#   100% BULL regime - NOT a regime problem. Same market where NightWatch ran PF 1.41.
+# VALUE BANKED FIRST: Atlas20 was NightWatch WITHOUT the score gate. Ungated PF 0.21
+#   vs gated PF 1.32 is the evidence that the score gate does real work
+#   (PREREG_TRIPLE_GATE Amendment 5). That measurement is complete; running longer
+#   would not strengthen it.
+# REVERSAL CONDITION: NONE. Do not restart this configuration. If a 20-slot frame is
+#   wanted later as a slot-cap testbed, deploy fresh with a new dated cohort.
+[Service]
+--- /etc/systemd/system/gbot-momentum-capture.service.d-why-retired.conf
+[Service]
+# RETIRED 2026-09-11. Premise disproven, not underperforming.
+# 14 of 14 signals lost. WR 0% at EVERY stop width 1.5x to 5.0x ATR.
+# Price after a +5%/4h signal: median -1.96% at 1h, -3.77% at 4h.
+# 13 of 14 negative. The move MEAN-REVERTS - the entry buys a local
+# top. No stop, target or exit rule fixes a wrong entry.
+# Pre-registered gate was n>=50 / WR>40% / shuffle p<0.05. Stopped
+# early at n=14 because 0% WR across six stop widths plus negative
+# forward returns at every horizon is not a sample-size question.
+# DO NOT RESTART this configuration.
+--- /etc/systemd/system/gbot-momentum-capture.service.d/why-retired.conf
+[Service]
+# RETIRED 2026-09-11 - premise disproven at n=14.
+# See /root/audit_scratch/MOMENTUM_RETIRED.md
+
+=== PHASE1 ===
+halt: {"active":true,"criterion":null,"operator_clear":false,"pair":null,"reason":"PROTECTIVE_STOP_RETRIES_EXHAUSTED","scope":"NEW_ENTRIES","ts":"2026-09-11T21:02:54+00:00","unresolved_qty":null}
+gate: PHASE1_REAL_ROUTE_ENABLED=false
+gate: PHASE1_LIVE_AUTHORIZED=true
+gate: PHASE1_RUNTIME_LIVE_ARMED=true
