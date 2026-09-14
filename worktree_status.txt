@@ -17,7 +17,7 @@
 /root/georgeos/kraken-gateway.worktrees/market-snapshot-logging	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/minimal-scanner-provider-injection	DIRTY	2 changed files
 /root/georgeos/kraken-gateway.worktrees/p0-breakeven-repair	DIRTY	4 changed files
-/root/georgeos/kraken-gateway.worktrees/p0-repair-v2	DIRTY	69 changed files
+/root/georgeos/kraken-gateway.worktrees/p0-repair-v2	DIRTY	2 changed files
 /root/georgeos/kraken-gateway.worktrees/pasted-text-processing	DIRTY	1 changed files
 /root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a	DIRTY	4 changed files
 /root/georgeos/kraken-gateway.worktrees/pasted-text-processing-e1d02042	DIRTY	54 changed files
@@ -33,7 +33,7 @@
 /root/georgeos/kraken-gateway.worktrees/shadow-strategy	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/strategy-optimization	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/toggle-terminal-shortcut	clean	0 changed files
-/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy	DIRTY	60 changed files
+/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy	DIRTY	4 changed files
 /root/georgeos/kraken-gateway.worktrees/v11-shadow-maintenance-cache-optimization	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/validation-tree-invariant-audit	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/walk-forward-validation	clean	0 changed files
