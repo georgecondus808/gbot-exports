@@ -1,60 +1,60 @@
-collected_utc: 2026-09-14T18:30:09.109154+00:00
+collected_utc: 2026-09-15T05:56:15.793154+00:00
 
 === PROCESSES (cgroup/cwd: both bots share a module name) ===
-pid=608848 uptime_h=175.4 cpu=0.0 mem=0.0
+pid=608848 uptime_h=186.9 cpu=0.0 mem=0.0
     cwd=/root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a
     cgroup=0::/user.slice/user-0.slice/session-6668.scope
     cmd=SCREEN -dmS dca-v2-hype /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_hype.py
     git_head=18cb29c 2026-08-15 20:27:54 +0000 Merge Replay Lab performance optimization
     git_dirty_files=4
-pid=608850 uptime_h=175.4 cpu=0.0 mem=0.3
+pid=608850 uptime_h=186.9 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a
     cgroup=0::/user.slice/user-0.slice/session-6668.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_hype.py
     git_head=18cb29c 2026-08-15 20:27:54 +0000 Merge Replay Lab performance optimization
     git_dirty_files=4
-pid=608873 uptime_h=175.4 cpu=0.0 mem=0.0
+pid=608873 uptime_h=186.9 cpu=0.0 mem=0.0
     cwd=/root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a
     cgroup=0::/user.slice/user-0.slice/session-6668.scope
     cmd=SCREEN -dmS dca-v2-eth /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_eth.py
     git_head=18cb29c 2026-08-15 20:27:54 +0000 Merge Replay Lab performance optimization
     git_dirty_files=4
-pid=608875 uptime_h=175.4 cpu=0.0 mem=0.3
+pid=608875 uptime_h=186.9 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a
     cgroup=0::/user.slice/user-0.slice/session-6668.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_eth.py
     git_head=18cb29c 2026-08-15 20:27:54 +0000 Merge Replay Lab performance optimization
     git_dirty_files=4
-pid=608897 uptime_h=175.4 cpu=0.0 mem=0.0
+pid=608897 uptime_h=186.9 cpu=0.0 mem=0.0
     cwd=/root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a
     cgroup=0::/user.slice/user-0.slice/session-6668.scope
     cmd=SCREEN -dmS dca-v2-sol /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_sol.py
     git_head=18cb29c 2026-08-15 20:27:54 +0000 Merge Replay Lab performance optimization
     git_dirty_files=4
-pid=608899 uptime_h=175.4 cpu=0.0 mem=0.2
+pid=608899 uptime_h=186.9 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a
     cgroup=0::/user.slice/user-0.slice/session-6668.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_sol.py
     git_head=18cb29c 2026-08-15 20:27:54 +0000 Merge Replay Lab performance optimization
     git_dirty_files=4
-pid=608920 uptime_h=175.4 cpu=0.0 mem=0.0
+pid=608920 uptime_h=186.9 cpu=0.0 mem=0.0
     cwd=/root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a
     cgroup=0::/user.slice/user-0.slice/session-6668.scope
     cmd=SCREEN -dmS dca-v2-uni /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_uni.py
     git_head=18cb29c 2026-08-15 20:27:54 +0000 Merge Replay Lab performance optimization
     git_dirty_files=4
-pid=608922 uptime_h=175.4 cpu=0.0 mem=0.3
+pid=608922 uptime_h=186.9 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/pasted-text-processing-91d0229a
     cgroup=0::/user.slice/user-0.slice/session-6668.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_uni.py
     git_head=18cb29c 2026-08-15 20:27:54 +0000 Merge Replay Lab performance optimization
     git_dirty_files=4
-pid=821979 uptime_h=81.9 cpu=80.1 mem=4.6
+pid=821979 uptime_h=93.4 cpu=80.4 mem=4.6
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/system.slice/gbot-nightwatch.service
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -m dev_supervisor.night_watch
     git_head=d15fb58 2026-09-11 23:40:58 +0000 watchlist 46 -> 47: add VVVUSD on measured spread
-    git_dirty_files=1
+    git_dirty_files=9
 
 === SCREEN SESSIONS ===
 608920.dca-v2-uni	(09/07/2026 11:05:08 AM)	(Detached)
@@ -66,121 +66,121 @@ pid=821979 uptime_h=81.9 cpu=80.1 mem=4.6
 
 === LOG FRESHNESS + ERROR SIGNATURES (last 500 lines) ===
 /root/georgeos/kraken-gateway/logs/georgebot.log
-    age_hours=394.4  errors=none
+    age_hours=405.8  errors=none
     last_line=[2026-08-29 08:07:11] Notification send failed: SYNTHETIC_TELEGRAM_DOWN
 /root/georgeos/kraken-gateway.worktrees/atlas20/logs/georgebot.log
-    age_hours=112.0  errors=none
+    age_hours=123.4  errors=none
     last_line=[2026-09-10 02:29:29] Telegram send failure: Telegram HTTP error 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 /root/atlas20_storage/telegram_cron.log
-    age_hours=523.6  errors=none
+    age_hours=535.0  errors=none
     last_line=
 /root/atlas20_storage/telemetry_cron.log
-    age_hours=330.2  errors=none
+    age_hours=341.6  errors=none
     last_line=ROWS_WRITTEN=0
 /root/refresh_profitability_status.log
-    age_hours=2.5  errors=none
-    last_line=Refreshed at Mon Sep 14 04:00:01 PM UTC 2026 -- see latest_profitability_status.json
+    age_hours=1.9  errors=none
+    last_line=Refreshed at Tue Sep 15 04:00:01 AM UTC 2026 -- see latest_profitability_status.json
 /root/fleet_evidence_count.log
-    age_hours=0.1  errors=none
+    age_hours=0.6  errors=none
     last_line=}
 /root/circuit_breaker_cron.log
-    age_hours=0.0  errors=none
+    age_hours=0.4  errors=none
     last_line=✅ Circuit breaker check: 0 tripped
 /root/mtf_observer_run.log
     age_hours=0.4  errors=none
     last_line={'attempted': 71, 'complete': 71, 'stale': 0, 'insufficient': 0, 'api_error': 0, 'records': 71}
 /root/fleet_integrity_audit.log
-    age_hours=13.5  errors=none
+    age_hours=0.9  errors=none
     last_line=LIVE_BEHAVIOR_CHANGED=NO (read-only audit)
 /root/gbot-exports-cron/push_export.log
-    age_hours=24.0  errors=none
-    last_line=Pushed export at 2026-09-13 18:30 UTC
+    age_hours=0.1  errors=none
+    last_line=Pushed export at 2026-09-14 18:30 UTC
 
 === EVIDENCE FILES ===
-/root/immutable_evidence/audit_trail.jsonl	2 lines	age_hours=587.5
-/root/immutable_evidence/backup_manifest.jsonl	1 lines	age_hours=587.1
-/root/immutable_evidence/bear_capture_scans.jsonl	113067 lines	age_hours=0.0
-/root/immutable_evidence/bear_replay_blocked_candidates.jsonl	244 lines	age_hours=80.5
-/root/immutable_evidence/bot_parameter_cohorts.jsonl	2 lines	age_hours=131.8
-/root/immutable_evidence/breadth_alerts.jsonl	947 lines	age_hours=466.4
-/root/immutable_evidence/dca_bot_eth_evidence.jsonl	136 lines	age_hours=616.7
-/root/immutable_evidence/dca_bot_evidence.jsonl	157 lines	age_hours=616.7
-/root/immutable_evidence/dca_bot_uni_evidence.jsonl	125 lines	age_hours=616.7
-/root/immutable_evidence/dca_dryrun_evidence.jsonl	42 lines	age_hours=619.4
-/root/immutable_evidence/dca_v2_btc_decisions.jsonl	5 lines	age_hours=300.4
-/root/immutable_evidence/dca_v2_btc_evidence.jsonl	1727 lines	age_hours=249.4
-/root/immutable_evidence/dca_v2_eth_evidence.jsonl	17198 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_hype_evidence.jsonl	8757 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_sol_evidence.jsonl	16291 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_uni_evidence.jsonl	11153 lines	age_hours=0.0
-/root/immutable_evidence/drawdown_breaker_shadow.jsonl	889 lines	age_hours=0.1
-/root/immutable_evidence/drawdown_tracking.jsonl	2 lines	age_hours=587.2
-/root/immutable_evidence/errors.jsonl	0 lines	age_hours=587.5
-/root/immutable_evidence/execution_truth_v1.jsonl	9233 lines	age_hours=0.1
-/root/immutable_evidence/exhaustion_outcomes.jsonl	0 lines	age_hours=614.7
-/root/immutable_evidence/exhaustion_signals.jsonl	76 lines	age_hours=613.9
-/root/immutable_evidence/exhaustion_signals_clean.jsonl	57 lines	age_hours=613.8
-/root/immutable_evidence/exhaustion_signals_legacy_unkeyed.jsonl	19 lines	age_hours=613.8
-/root/immutable_evidence/exits.jsonl	0 lines	age_hours=587.5
-/root/immutable_evidence/experiment_ledger.jsonl	1 lines	age_hours=536.2
-/root/immutable_evidence/fills.jsonl	0 lines	age_hours=587.5
-/root/immutable_evidence/heartbeats.jsonl	2 lines	age_hours=586.6
-/root/immutable_evidence/kraken_fee_tier_history.jsonl	26 lines	age_hours=12.2
-/root/immutable_evidence/macro_events.jsonl	18 lines	age_hours=5.6
-/root/immutable_evidence/margin_derivatives_edge_history.jsonl	601 lines	age_hours=331.2
-/root/immutable_evidence/margin_derivatives_historical_rows.jsonl	3755 lines	age_hours=520.6
-/root/immutable_evidence/margin_full_intelligence_research.jsonl	49481 lines	age_hours=0.2
-/root/immutable_evidence/margin_research_outcomes.jsonl	37365 lines	age_hours=0.1
-/root/immutable_evidence/margin_score_calibration.jsonl	50424 lines	age_hours=371.3
-/root/immutable_evidence/momentum_signals.jsonl	14 lines	age_hours=71.6
-/root/immutable_evidence/mtf_entry_context.jsonl	76382 lines	age_hours=-0.0
-/root/immutable_evidence/naked_position_alerts.jsonl	1907 lines	age_hours=522.8
-/root/immutable_evidence/order_attempts_v1.jsonl	12 lines	age_hours=7.3
-/root/immutable_evidence/pending_cancel_shadow.jsonl	2 lines	age_hours=615.6
-/root/immutable_evidence/promotions.jsonl	0 lines	age_hours=587.5
-/root/immutable_evidence/regime_classification.jsonl	2 lines	age_hours=587.3
-/root/immutable_evidence/rejection_ledger_v1.jsonl	225850 lines	age_hours=0.2
-/root/immutable_evidence/signal_eligible_cycles.jsonl	3019 lines	age_hours=541.7
-/root/immutable_evidence/signals.jsonl	0 lines	age_hours=587.5
-/root/immutable_evidence/wick_shadow.jsonl	22 lines	age_hours=0.5
-/root/immutable_evidence/wick_shadow_live.jsonl	10394 lines	age_hours=0.1
+/root/immutable_evidence/audit_trail.jsonl	2 lines	age_hours=598.9
+/root/immutable_evidence/backup_manifest.jsonl	1 lines	age_hours=598.6
+/root/immutable_evidence/bear_capture_scans.jsonl	125302 lines	age_hours=0.0
+/root/immutable_evidence/bear_replay_blocked_candidates.jsonl	244 lines	age_hours=91.9
+/root/immutable_evidence/bot_parameter_cohorts.jsonl	2 lines	age_hours=143.3
+/root/immutable_evidence/breadth_alerts.jsonl	947 lines	age_hours=477.9
+/root/immutable_evidence/dca_bot_eth_evidence.jsonl	136 lines	age_hours=628.1
+/root/immutable_evidence/dca_bot_evidence.jsonl	157 lines	age_hours=628.1
+/root/immutable_evidence/dca_bot_uni_evidence.jsonl	125 lines	age_hours=628.1
+/root/immutable_evidence/dca_dryrun_evidence.jsonl	42 lines	age_hours=630.8
+/root/immutable_evidence/dca_v2_btc_decisions.jsonl	5 lines	age_hours=311.9
+/root/immutable_evidence/dca_v2_btc_evidence.jsonl	1727 lines	age_hours=260.9
+/root/immutable_evidence/dca_v2_eth_evidence.jsonl	17871 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_hype_evidence.jsonl	9428 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_sol_evidence.jsonl	16966 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_uni_evidence.jsonl	11825 lines	age_hours=0.0
+/root/immutable_evidence/drawdown_breaker_shadow.jsonl	948 lines	age_hours=0.1
+/root/immutable_evidence/drawdown_tracking.jsonl	2 lines	age_hours=598.6
+/root/immutable_evidence/errors.jsonl	0 lines	age_hours=598.9
+/root/immutable_evidence/execution_truth_v1.jsonl	9459 lines	age_hours=0.1
+/root/immutable_evidence/exhaustion_outcomes.jsonl	0 lines	age_hours=626.2
+/root/immutable_evidence/exhaustion_signals.jsonl	76 lines	age_hours=625.4
+/root/immutable_evidence/exhaustion_signals_clean.jsonl	57 lines	age_hours=625.2
+/root/immutable_evidence/exhaustion_signals_legacy_unkeyed.jsonl	19 lines	age_hours=625.2
+/root/immutable_evidence/exits.jsonl	0 lines	age_hours=598.9
+/root/immutable_evidence/experiment_ledger.jsonl	1 lines	age_hours=547.7
+/root/immutable_evidence/fills.jsonl	0 lines	age_hours=598.9
+/root/immutable_evidence/heartbeats.jsonl	2 lines	age_hours=598.1
+/root/immutable_evidence/kraken_fee_tier_history.jsonl	26 lines	age_hours=23.7
+/root/immutable_evidence/macro_events.jsonl	18 lines	age_hours=17.1
+/root/immutable_evidence/margin_derivatives_edge_history.jsonl	601 lines	age_hours=342.7
+/root/immutable_evidence/margin_derivatives_historical_rows.jsonl	3755 lines	age_hours=532.0
+/root/immutable_evidence/margin_full_intelligence_research.jsonl	50722 lines	age_hours=0.1
+/root/immutable_evidence/margin_research_outcomes.jsonl	38388 lines	age_hours=0.1
+/root/immutable_evidence/margin_score_calibration.jsonl	50424 lines	age_hours=382.8
+/root/immutable_evidence/momentum_signals.jsonl	14 lines	age_hours=83.1
+/root/immutable_evidence/mtf_entry_context.jsonl	78011 lines	age_hours=0.4
+/root/immutable_evidence/naked_position_alerts.jsonl	1907 lines	age_hours=534.2
+/root/immutable_evidence/order_attempts_v1.jsonl	12 lines	age_hours=18.8
+/root/immutable_evidence/pending_cancel_shadow.jsonl	2 lines	age_hours=627.0
+/root/immutable_evidence/promotions.jsonl	0 lines	age_hours=598.9
+/root/immutable_evidence/regime_classification.jsonl	2 lines	age_hours=598.8
+/root/immutable_evidence/rejection_ledger_v1.jsonl	230706 lines	age_hours=0.2
+/root/immutable_evidence/signal_eligible_cycles.jsonl	3019 lines	age_hours=553.2
+/root/immutable_evidence/signals.jsonl	0 lines	age_hours=598.9
+/root/immutable_evidence/wick_shadow.jsonl	22 lines	age_hours=11.9
+/root/immutable_evidence/wick_shadow_live.jsonl	10620 lines	age_hours=0.1
 
 === SYSTEMD gbot UNITS ===
-gbot-bear-capture.service                                                                                              loaded    active     running         GBOT Bear Regime Data Capture (PAPER, execution disabled)
-gbot-event-alerter.service                                                                                             loaded    inactive   dead            GBOT macro event alerter (notification only)
-gbot-evidence-backup.service                                                                                           loaded    inactive   dead            GBOT evidence ledger daily backup
-gbot-fee-profile-refresh.service                                                                                       loaded    inactive   dead            Refresh Kraken account fee profile (rolling 30-day tier)
-gbot-l2-collector.service                                                                                              loaded    inactive   dead            GBOT L2 order-book snapshot collector (READ-ONLY, public endpoint)
-gbot-margin-bot.service                                                                                                loaded    active     running         GBOT Margin Short Bot (SHADOW mode)
-gbot-margin-calibration.service                                                                                        loaded    inactive   dead            GBOT Margin Full Score Calibration Tracker
-gbot-margin-outcomes.service                                                                                           loaded    inactive   dead            GBOT Margin Research Outcome Tracker
-gbot-margin-research.service                                                                                           loaded    inactive   dead            GBOT Margin Full Intelligence Research Lane
-gbot-nightwatch.service                                                                                                loaded    active     running         GBOT Night Watch (PAPER mode) -
-gbot-phase1-live.service                                                                                               loaded    active     running         GBOT Phase1 Dedicated Runtime
-gbot-phase1-memory-snapshot.service                                                                                    loaded    inactive   dead            GBOT Phase1 memory snapshot
-gbot-phase1-telegram.service                                                                                           loaded    active     running         GBOT Phase1 Telegram Notification Sidecar
-gbot-phase1-watchdog.service                                                                                           loaded    activating start     start GBOT Phase1 watchdog
-gbot-rejection-ledger.service                                                                                          loaded    activating start     start GBOT prospective rejection ledger harvester (read-only, journald)
-gbot-v11-crawl.service                                                                                                 loaded    inactive   dead            GBOT v11 serialized deep-history crawl
-gbot-v11-mtf.service                                                                                                   loaded    inactive   dead            GBOT v11 trades->MTF bars converter
-gbot-watchlist.service                                                                                                 loaded    inactive   dead            GBOT Daily Watchlist (descriptive, manual-trading aid)
-gbot-wick-shadow.service                                                                                               loaded    inactive   dead            GBOT wick-aware exit shadow evaluator (READ-ONLY)
-v11-r11-zec-1788217609.service                                                                                         loaded    active     exited          [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl ZECUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
-v11-r12-xbt-1788217649.service                                                                                         loaded    active     exited          [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl XBTUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
-v11-r13-link-1788217696.service                                                                                        loaded    active     exited          [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl LINKUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
-gbot-event-alerter.timer                                                                                               loaded    active     waiting         Check macro calendar every 6h
-gbot-evidence-backup.timer                                                                                             loaded    active     waiting         Daily GBOT evidence backup
-gbot-fee-profile-refresh.timer                                                                                         loaded    active     waiting         Daily Kraken fee tier refresh
-gbot-l2-collector.timer                                                                                                loaded    active     waiting         Collect L2 snapshots
-gbot-margin-calibration.timer                                                                                          loaded    active     waiting         Evaluate all GBOT Margin intelligence scores
-gbot-margin-outcomes.timer                                                                                             loaded    active     waiting         Evaluate matured GBOT Margin research signals
-gbot-margin-research.timer                                                                                             loaded    active     waiting         Run GBOT Margin Intelligence Research after each 15M candle
-gbot-phase1-memory-snapshot.timer                                                                                      loaded    active     waiting         GBOT Phase1 memory snapshot every five minutes
-gbot-phase1-watchdog.timer                                                                                             loaded    active     running         Phase1 watchdog every minute
-gbot-rejection-ledger.timer                                                                                            loaded    active     running         Harvest rejection ledger every 15 minutes
-gbot-v11-mtf.timer                                                                                                     loaded    active     waiting         Regenerate v11 MTF bars 30min after each crawl pass
-gbot-watchlist.timer                                                                                                   loaded    active     waiting         Run GBOT watchlist daily
-gbot-wick-shadow.timer                                                                                                 loaded    active     waiting         Run wick shadow evaluator daily
+gbot-bear-capture.service                                                                                              loaded    active   running   GBOT Bear Regime Data Capture (PAPER, execution disabled)
+gbot-event-alerter.service                                                                                             loaded    inactive dead      GBOT macro event alerter (notification only)
+gbot-evidence-backup.service                                                                                           loaded    inactive dead      GBOT evidence ledger daily backup
+gbot-fee-profile-refresh.service                                                                                       loaded    inactive dead      Refresh Kraken account fee profile (rolling 30-day tier)
+gbot-l2-collector.service                                                                                              loaded    inactive dead      GBOT L2 order-book snapshot collector (READ-ONLY, public endpoint)
+gbot-margin-bot.service                                                                                                loaded    active   running   GBOT Margin Short Bot (SHADOW mode)
+gbot-margin-calibration.service                                                                                        loaded    inactive dead      GBOT Margin Full Score Calibration Tracker
+gbot-margin-outcomes.service                                                                                           loaded    inactive dead      GBOT Margin Research Outcome Tracker
+gbot-margin-research.service                                                                                           loaded    inactive dead      GBOT Margin Full Intelligence Research Lane
+gbot-nightwatch.service                                                                                                loaded    active   running   GBOT Night Watch (PAPER mode) -
+gbot-phase1-live.service                                                                                               loaded    active   running   GBOT Phase1 Dedicated Runtime
+gbot-phase1-memory-snapshot.service                                                                                    loaded    inactive dead      GBOT Phase1 memory snapshot
+gbot-phase1-telegram.service                                                                                           loaded    active   running   GBOT Phase1 Telegram Notification Sidecar
+gbot-phase1-watchdog.service                                                                                           loaded    inactive dead      GBOT Phase1 watchdog
+gbot-rejection-ledger.service                                                                                          loaded    inactive dead      GBOT prospective rejection ledger harvester (read-only, journald)
+gbot-v11-crawl.service                                                                                                 loaded    inactive dead      GBOT v11 serialized deep-history crawl
+gbot-v11-mtf.service                                                                                                   loaded    inactive dead      GBOT v11 trades->MTF bars converter
+gbot-watchlist.service                                                                                                 loaded    inactive dead      GBOT Daily Watchlist (descriptive, manual-trading aid)
+gbot-wick-shadow.service                                                                                               loaded    inactive dead      GBOT wick-aware exit shadow evaluator (READ-ONLY)
+v11-r11-zec-1788217609.service                                                                                         loaded    active   exited    [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl ZECUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
+v11-r12-xbt-1788217649.service                                                                                         loaded    active   exited    [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl XBTUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
+v11-r13-link-1788217696.service                                                                                        loaded    active   exited    [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl LINKUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
+gbot-event-alerter.timer                                                                                               loaded    active   waiting   Check macro calendar every 6h
+gbot-evidence-backup.timer                                                                                             loaded    active   waiting   Daily GBOT evidence backup
+gbot-fee-profile-refresh.timer                                                                                         loaded    active   waiting   Daily Kraken fee tier refresh
+gbot-l2-collector.timer                                                                                                loaded    active   waiting   Collect L2 snapshots
+gbot-margin-calibration.timer                                                                                          loaded    active   waiting   Evaluate all GBOT Margin intelligence scores
+gbot-margin-outcomes.timer                                                                                             loaded    active   waiting   Evaluate matured GBOT Margin research signals
+gbot-margin-research.timer                                                                                             loaded    active   waiting   Run GBOT Margin Intelligence Research after each 15M candle
+gbot-phase1-memory-snapshot.timer                                                                                      loaded    active   waiting   GBOT Phase1 memory snapshot every five minutes
+gbot-phase1-watchdog.timer                                                                                             loaded    active   waiting   Phase1 watchdog every minute
+gbot-rejection-ledger.timer                                                                                            loaded    active   waiting   Harvest rejection ledger every 15 minutes
+gbot-v11-mtf.timer                                                                                                     loaded    active   waiting   Regenerate v11 MTF bars 30min after each crawl pass
+gbot-watchlist.timer                                                                                                   loaded    active   waiting   Run GBOT watchlist daily
+gbot-wick-shadow.timer                                                                                                 loaded    active   waiting   Run wick shadow evaluator daily
 --- failed ---
 
 === RETIREMENT NOTES ===
