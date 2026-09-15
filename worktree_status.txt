@@ -33,7 +33,7 @@
 /root/georgeos/kraken-gateway.worktrees/shadow-strategy	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/strategy-optimization	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/toggle-terminal-shortcut	clean	0 changed files
-/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy	DIRTY	9 changed files
+/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy	DIRTY	10 changed files
 /root/georgeos/kraken-gateway.worktrees/v11-shadow-maintenance-cache-optimization	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/validation-tree-invariant-audit	clean	0 changed files
 /root/georgeos/kraken-gateway.worktrees/walk-forward-validation	clean	0 changed files
