@@ -1,4 +1,4 @@
-/root/georgeos/kraken-gateway/storage/paper_trades_v10.csv	314885 bytes	126 lines	mtime 2026-09-16T18:23:17.846392+00:00
+/root/georgeos/kraken-gateway/storage/paper_trades_v10.csv	316818 bytes	127 lines	mtime 2026-09-17T16:31:37.728328+00:00
 /root/georgeos/kraken-gateway.worktrees/gbot-v14-shadow-telemetry/sandbox/v10-shadow-deploy-proposed/storage/paper_trades_v10.csv	829 bytes	1 lines	mtime 2026-08-19T07:22:20.716373+00:00
 /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed/storage/paper_trades_v10.csv	829 bytes	1 lines	mtime 2026-08-16T09:15:30.370002+00:00
 /root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy/storage/paper_trades_v10.csv	1087 bytes	1 lines	mtime 2026-09-10T03:02:20.657351+00:00
