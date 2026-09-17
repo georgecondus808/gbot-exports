@@ -1,7 +1,7 @@
-collected_utc: 2026-09-17T16:37:51.099759+00:00
+collected_utc: 2026-09-17T16:38:47.646041+00:00
 
 === PROCESSES (cgroup/cwd: both bots share a module name) ===
-pid=821979 uptime_h=152.1 cpu=81.4 mem=4.7
+pid=821979 uptime_h=152.1 cpu=81.4 mem=4.9
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/system.slice/gbot-nightwatch.service
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -m dev_supervisor.night_watch
@@ -37,7 +37,7 @@ pid=1106921 uptime_h=13.1 cpu=0.0 mem=0.0
     cmd=SCREEN -dmS dca-v2-eth /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_eth.py
     git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
     git_dirty_files=0
-pid=1106923 uptime_h=13.1 cpu=0.0 mem=0.4
+pid=1106923 uptime_h=13.1 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_eth.py
@@ -49,7 +49,7 @@ pid=1106930 uptime_h=13.1 cpu=0.0 mem=0.0
     cmd=SCREEN -dmS dca-v2-hype /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_hype.py
     git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
     git_dirty_files=0
-pid=1106932 uptime_h=13.1 cpu=0.0 mem=0.4
+pid=1106932 uptime_h=13.1 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_hype.py
@@ -57,19 +57,19 @@ pid=1106932 uptime_h=13.1 cpu=0.0 mem=0.4
     git_dirty_files=0
 
 === SCREEN SESSIONS ===
-1106930.dca-v2-hype	(09/17/2026 03:30:42 AM)	(Detached)
-1106921.dca-v2-eth	(09/17/2026 03:30:41 AM)	(Detached)
-1106917.dca-v2-sol	(09/17/2026 03:30:40 AM)	(Detached)
-1106913.dca-v2-uni	(09/17/2026 03:30:39 AM)	(Detached)
-93162.memory-watchdog	(08/27/2026 05:56:11 AM)	(Detached)
-3098.macro-monitor	(08/26/2026 08:14:39 AM)	(Detached)
+1106930.dca-v2-hype	(09/17/2026 03:30:41 AM)	(Detached)
+1106921.dca-v2-eth	(09/17/2026 03:30:40 AM)	(Detached)
+1106917.dca-v2-sol	(09/17/2026 03:30:39 AM)	(Detached)
+1106913.dca-v2-uni	(09/17/2026 03:30:38 AM)	(Detached)
+93162.memory-watchdog	(08/27/2026 05:56:10 AM)	(Detached)
+3098.macro-monitor	(08/26/2026 08:14:38 AM)	(Detached)
 
 === LOG FRESHNESS + ERROR SIGNATURES (last 500 lines) ===
 /root/georgeos/kraken-gateway/logs/georgebot.log
     age_hours=464.5  errors=none
     last_line=[2026-08-29 08:07:11] Notification send failed: SYNTHETIC_TELEGRAM_DOWN
 /root/georgeos/kraken-gateway.worktrees/atlas20/logs/georgebot.log
-    age_hours=182.1  errors=none
+    age_hours=182.2  errors=none
     last_line=[2026-09-10 02:29:29] Telegram send failure: Telegram HTTP error 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 /root/atlas20_storage/telegram_cron.log
     age_hours=593.7  errors=none
@@ -102,17 +102,17 @@ pid=1106932 uptime_h=13.1 cpu=0.0 mem=0.4
 /root/immutable_evidence/bear_capture_scans.jsonl	188341 lines	age_hours=0.0
 /root/immutable_evidence/bear_replay_blocked_candidates.jsonl	244 lines	age_hours=150.6
 /root/immutable_evidence/bot_parameter_cohorts.jsonl	2 lines	age_hours=202.0
-/root/immutable_evidence/breadth_alerts.jsonl	947 lines	age_hours=536.5
-/root/immutable_evidence/dca_bot_eth_evidence.jsonl	136 lines	age_hours=686.8
+/root/immutable_evidence/breadth_alerts.jsonl	947 lines	age_hours=536.6
+/root/immutable_evidence/dca_bot_eth_evidence.jsonl	136 lines	age_hours=686.9
 /root/immutable_evidence/dca_bot_evidence.jsonl	157 lines	age_hours=686.8
-/root/immutable_evidence/dca_bot_uni_evidence.jsonl	125 lines	age_hours=686.8
+/root/immutable_evidence/dca_bot_uni_evidence.jsonl	125 lines	age_hours=686.9
 /root/immutable_evidence/dca_dryrun_evidence.jsonl	42 lines	age_hours=689.5
 /root/immutable_evidence/dca_v2_btc_decisions.jsonl	5 lines	age_hours=370.6
 /root/immutable_evidence/dca_v2_btc_evidence.jsonl	1727 lines	age_hours=319.6
 /root/immutable_evidence/dca_v2_eth_evidence.jsonl	21333 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_hype_evidence.jsonl	12890 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_sol_evidence.jsonl	20423 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_uni_evidence.jsonl	15284 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_hype_evidence.jsonl	12891 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_sol_evidence.jsonl	20424 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_uni_evidence.jsonl	15285 lines	age_hours=0.0
 /root/immutable_evidence/drawdown_breaker_shadow.jsonl	1255 lines	age_hours=0.1
 /root/immutable_evidence/drawdown_tracking.jsonl	2 lines	age_hours=657.3
 /root/immutable_evidence/errors.jsonl	0 lines	age_hours=657.6
@@ -128,17 +128,17 @@ pid=1106932 uptime_h=13.1 cpu=0.0 mem=0.4
 /root/immutable_evidence/kraken_fee_tier_history.jsonl	29 lines	age_hours=10.4
 /root/immutable_evidence/macro_events.jsonl	18 lines	age_hours=75.8
 /root/immutable_evidence/margin_derivatives_edge_history.jsonl	601 lines	age_hours=401.4
-/root/immutable_evidence/margin_derivatives_historical_rows.jsonl	3755 lines	age_hours=590.7
+/root/immutable_evidence/margin_derivatives_historical_rows.jsonl	3755 lines	age_hours=590.8
 /root/immutable_evidence/margin_full_intelligence_research.jsonl	57039 lines	age_hours=0.1
 /root/immutable_evidence/margin_research_outcomes.jsonl	45171 lines	age_hours=0.0
-/root/immutable_evidence/margin_score_calibration.jsonl	50424 lines	age_hours=441.4
+/root/immutable_evidence/margin_score_calibration.jsonl	50424 lines	age_hours=441.5
 /root/immutable_evidence/momentum_signals.jsonl	14 lines	age_hours=141.8
 /root/immutable_evidence/mtf_entry_context.jsonl	86389 lines	age_hours=0.1
 /root/immutable_evidence/naked_position_alerts.jsonl	1907 lines	age_hours=592.9
-/root/immutable_evidence/order_attempts_v1.jsonl	27 lines	age_hours=16.5
-/root/immutable_evidence/pending_cancel_shadow.jsonl	2 lines	age_hours=685.7
+/root/immutable_evidence/order_attempts_v1.jsonl	27 lines	age_hours=16.6
+/root/immutable_evidence/pending_cancel_shadow.jsonl	2 lines	age_hours=685.8
 /root/immutable_evidence/promotions.jsonl	0 lines	age_hours=657.6
-/root/immutable_evidence/regime_classification.jsonl	2 lines	age_hours=657.4
+/root/immutable_evidence/regime_classification.jsonl	2 lines	age_hours=657.5
 /root/immutable_evidence/rejection_ledger_v1.jsonl	258368 lines	age_hours=0.1
 /root/immutable_evidence/signal_eligible_cycles.jsonl	3019 lines	age_hours=611.9
 /root/immutable_evidence/signals.jsonl	0 lines	age_hours=657.6
