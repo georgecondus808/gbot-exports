@@ -1,89 +1,85 @@
-collected_utc: 2026-09-17T18:30:12.860361+00:00
+collected_utc: 2026-09-18T18:30:16.751371+00:00
 
 === PROCESSES (cgroup/cwd: both bots share a module name) ===
-pid=821979 uptime_h=153.9 cpu=81.4 mem=4.9
-    cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
-    cgroup=0::/system.slice/gbot-nightwatch.service
-    cmd=/root/georgeos/kraken-gateway/venv/bin/python -m dev_supervisor.night_watch
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
-    git_dirty_files=0
-pid=1106913 uptime_h=15.0 cpu=0.0 mem=0.0
+pid=1106913 uptime_h=39.0 cpu=0.0 mem=0.0
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=SCREEN -dmS dca-v2-uni /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_uni.py
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
     git_dirty_files=0
-pid=1106915 uptime_h=15.0 cpu=0.0 mem=0.4
+pid=1106915 uptime_h=39.0 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_uni.py
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
     git_dirty_files=0
-pid=1106917 uptime_h=15.0 cpu=0.0 mem=0.0
+pid=1106917 uptime_h=39.0 cpu=0.0 mem=0.0
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=SCREEN -dmS dca-v2-sol /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_sol.py
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
     git_dirty_files=0
-pid=1106919 uptime_h=15.0 cpu=0.0 mem=0.4
+pid=1106919 uptime_h=39.0 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_sol.py
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
     git_dirty_files=0
-pid=1106921 uptime_h=15.0 cpu=0.0 mem=0.0
+pid=1106921 uptime_h=39.0 cpu=0.0 mem=0.0
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=SCREEN -dmS dca-v2-eth /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_eth.py
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
     git_dirty_files=0
-pid=1106923 uptime_h=15.0 cpu=0.0 mem=0.4
+pid=1106923 uptime_h=39.0 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_eth.py
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
     git_dirty_files=0
-pid=1106930 uptime_h=15.0 cpu=0.0 mem=0.0
+pid=1106930 uptime_h=39.0 cpu=0.0 mem=0.0
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=SCREEN -dmS dca-v2-hype /root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_hype.py
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
     git_dirty_files=0
-pid=1106932 uptime_h=15.0 cpu=0.0 mem=0.3
+pid=1106932 uptime_h=39.0 cpu=0.0 mem=0.3
     cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
     cgroup=0::/user.slice/user-0.slice/session-9191.scope
     cmd=/root/georgeos/kraken-gateway/venv/bin/python -u /root/dca_v2_hype.py
-    git_head=7bd1488 2026-09-17 16:34:53 +0000 phase1: bounded retry on the QueryOrders reconciliation read
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
     git_dirty_files=0
-pid=1292895 uptime_h=0.0 cpu=38.3 mem=0.1
-    cwd=/
-    cgroup=0::/system.slice/gbot-rejection-ledger.service
-    cmd=journalctl -u gbot-atlas20.service --since 20 min ago --no-pager -o short-iso
+pid=1337768 uptime_h=6.9 cpu=83.6 mem=3.8
+    cwd=/root/georgeos/kraken-gateway.worktrees/v10-shadow-deploy
+    cgroup=0::/system.slice/gbot-nightwatch.service
+    cmd=/root/georgeos/kraken-gateway/venv/bin/python -m dev_supervisor.night_watch
+    git_head=68fcae0 2026-09-18 01:49:32 -1000 phase1: SIGTERM handler, flag checked only between cycles
+    git_dirty_files=0
 
 === SCREEN SESSIONS ===
-1106930.dca-v2-hype	(09/17/2026 03:30:42 AM)	(Detached)
-1106921.dca-v2-eth	(09/17/2026 03:30:41 AM)	(Detached)
-1106917.dca-v2-sol	(09/17/2026 03:30:40 AM)	(Detached)
-1106913.dca-v2-uni	(09/17/2026 03:30:39 AM)	(Detached)
-93162.memory-watchdog	(08/27/2026 05:56:11 AM)	(Detached)
-3098.macro-monitor	(08/26/2026 08:14:39 AM)	(Detached)
+1106930.dca-v2-hype	(09/17/2026 03:30:41 AM)	(Detached)
+1106921.dca-v2-eth	(09/17/2026 03:30:40 AM)	(Detached)
+1106917.dca-v2-sol	(09/17/2026 03:30:39 AM)	(Detached)
+1106913.dca-v2-uni	(09/17/2026 03:30:38 AM)	(Detached)
+93162.memory-watchdog	(08/27/2026 05:56:10 AM)	(Detached)
+3098.macro-monitor	(08/26/2026 08:14:38 AM)	(Detached)
 
 === LOG FRESHNESS + ERROR SIGNATURES (last 500 lines) ===
 /root/georgeos/kraken-gateway/logs/georgebot.log
-    age_hours=466.4  errors=none
+    age_hours=490.4  errors=none
     last_line=[2026-08-29 08:07:11] Notification send failed: SYNTHETIC_TELEGRAM_DOWN
 /root/georgeos/kraken-gateway.worktrees/atlas20/logs/georgebot.log
-    age_hours=184.0  errors=none
+    age_hours=208.0  errors=none
     last_line=[2026-09-10 02:29:29] Telegram send failure: Telegram HTTP error 401: {"ok":false,"error_code":401,"description":"Unauthorized"}
 /root/atlas20_storage/telegram_cron.log
-    age_hours=595.6  errors=none
+    age_hours=619.6  errors=none
     last_line=
 /root/atlas20_storage/telemetry_cron.log
-    age_hours=402.2  errors=none
+    age_hours=426.2  errors=none
     last_line=ROWS_WRITTEN=0
 /root/refresh_profitability_status.log
     age_hours=2.5  errors=none
-    last_line=Refreshed at Thu Sep 17 04:00:01 PM UTC 2026 -- see latest_profitability_status.json
+    last_line=Refreshed at Fri Sep 18 04:00:01 PM UTC 2026 -- see latest_profitability_status.json
 /root/fleet_evidence_count.log
     age_hours=0.1  errors=none
     last_line=}
@@ -98,56 +94,56 @@ pid=1292895 uptime_h=0.0 cpu=38.3 mem=0.1
     last_line=LIVE_BEHAVIOR_CHANGED=NO (read-only audit)
 /root/gbot-exports-cron/push_export.log
     age_hours=0.0  errors=none
-    last_line=wrote 9979 rows -> /root/gbot-exports-cron/repo/execution_path.csv
+    last_line=wrote 10393 rows -> /root/gbot-exports-cron/repo/execution_path.csv
 
 === EVIDENCE FILES ===
-/root/immutable_evidence/audit_trail.jsonl	2 lines	age_hours=659.5
-/root/immutable_evidence/backup_manifest.jsonl	1 lines	age_hours=659.1
-/root/immutable_evidence/bear_capture_scans.jsonl	190355 lines	age_hours=0.0
-/root/immutable_evidence/bear_replay_blocked_candidates.jsonl	244 lines	age_hours=152.5
-/root/immutable_evidence/bot_parameter_cohorts.jsonl	2 lines	age_hours=203.8
-/root/immutable_evidence/breadth_alerts.jsonl	947 lines	age_hours=538.4
-/root/immutable_evidence/dca_bot_eth_evidence.jsonl	136 lines	age_hours=688.7
-/root/immutable_evidence/dca_bot_evidence.jsonl	157 lines	age_hours=688.7
-/root/immutable_evidence/dca_bot_uni_evidence.jsonl	125 lines	age_hours=688.7
-/root/immutable_evidence/dca_dryrun_evidence.jsonl	42 lines	age_hours=691.4
-/root/immutable_evidence/dca_v2_btc_decisions.jsonl	5 lines	age_hours=372.4
-/root/immutable_evidence/dca_v2_btc_evidence.jsonl	1727 lines	age_hours=321.4
-/root/immutable_evidence/dca_v2_eth_evidence.jsonl	21443 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_hype_evidence.jsonl	13001 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_sol_evidence.jsonl	20534 lines	age_hours=0.0
-/root/immutable_evidence/dca_v2_uni_evidence.jsonl	15394 lines	age_hours=0.0
-/root/immutable_evidence/drawdown_breaker_shadow.jsonl	1264 lines	age_hours=0.1
-/root/immutable_evidence/drawdown_tracking.jsonl	2 lines	age_hours=659.2
-/root/immutable_evidence/errors.jsonl	0 lines	age_hours=659.5
-/root/immutable_evidence/execution_truth_v1.jsonl	9979 lines	age_hours=0.1
-/root/immutable_evidence/exhaustion_outcomes.jsonl	0 lines	age_hours=686.7
-/root/immutable_evidence/exhaustion_signals.jsonl	76 lines	age_hours=685.9
-/root/immutable_evidence/exhaustion_signals_clean.jsonl	57 lines	age_hours=685.8
-/root/immutable_evidence/exhaustion_signals_legacy_unkeyed.jsonl	19 lines	age_hours=685.8
-/root/immutable_evidence/exits.jsonl	0 lines	age_hours=659.5
-/root/immutable_evidence/experiment_ledger.jsonl	1 lines	age_hours=608.2
-/root/immutable_evidence/fills.jsonl	0 lines	age_hours=659.5
-/root/immutable_evidence/heartbeats.jsonl	2 lines	age_hours=658.6
-/root/immutable_evidence/kraken_fee_tier_history.jsonl	29 lines	age_hours=12.3
-/root/immutable_evidence/macro_events.jsonl	18 lines	age_hours=77.6
-/root/immutable_evidence/margin_derivatives_edge_history.jsonl	601 lines	age_hours=403.2
-/root/immutable_evidence/margin_derivatives_historical_rows.jsonl	3755 lines	age_hours=592.6
-/root/immutable_evidence/margin_full_intelligence_research.jsonl	57228 lines	age_hours=0.2
-/root/immutable_evidence/margin_research_outcomes.jsonl	45326 lines	age_hours=0.1
-/root/immutable_evidence/margin_score_calibration.jsonl	50424 lines	age_hours=443.3
-/root/immutable_evidence/momentum_signals.jsonl	14 lines	age_hours=143.6
-/root/immutable_evidence/mtf_entry_context.jsonl	86608 lines	age_hours=-0.0
-/root/immutable_evidence/naked_position_alerts.jsonl	1907 lines	age_hours=594.8
-/root/immutable_evidence/order_attempts_v1.jsonl	27 lines	age_hours=18.4
-/root/immutable_evidence/pending_cancel_shadow.jsonl	2 lines	age_hours=687.6
-/root/immutable_evidence/promotions.jsonl	0 lines	age_hours=659.5
-/root/immutable_evidence/regime_classification.jsonl	2 lines	age_hours=659.3
-/root/immutable_evidence/rejection_ledger_v1.jsonl	259160 lines	age_hours=0.2
-/root/immutable_evidence/signal_eligible_cycles.jsonl	3019 lines	age_hours=613.7
-/root/immutable_evidence/signals.jsonl	0 lines	age_hours=659.5
-/root/immutable_evidence/wick_shadow.jsonl	25 lines	age_hours=0.5
-/root/immutable_evidence/wick_shadow_live.jsonl	11140 lines	age_hours=0.1
+/root/immutable_evidence/audit_trail.jsonl	2 lines	age_hours=683.5
+/root/immutable_evidence/backup_manifest.jsonl	1 lines	age_hours=683.1
+/root/immutable_evidence/bear_capture_scans.jsonl	216081 lines	age_hours=0.0
+/root/immutable_evidence/bear_replay_blocked_candidates.jsonl	244 lines	age_hours=176.5
+/root/immutable_evidence/bot_parameter_cohorts.jsonl	2 lines	age_hours=227.8
+/root/immutable_evidence/breadth_alerts.jsonl	947 lines	age_hours=562.4
+/root/immutable_evidence/dca_bot_eth_evidence.jsonl	136 lines	age_hours=712.7
+/root/immutable_evidence/dca_bot_evidence.jsonl	157 lines	age_hours=712.7
+/root/immutable_evidence/dca_bot_uni_evidence.jsonl	125 lines	age_hours=712.7
+/root/immutable_evidence/dca_dryrun_evidence.jsonl	42 lines	age_hours=715.4
+/root/immutable_evidence/dca_v2_btc_decisions.jsonl	5 lines	age_hours=396.4
+/root/immutable_evidence/dca_v2_btc_evidence.jsonl	1727 lines	age_hours=345.4
+/root/immutable_evidence/dca_v2_eth_evidence.jsonl	22859 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_hype_evidence.jsonl	14415 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_sol_evidence.jsonl	21951 lines	age_hours=0.0
+/root/immutable_evidence/dca_v2_uni_evidence.jsonl	16810 lines	age_hours=0.0
+/root/immutable_evidence/drawdown_breaker_shadow.jsonl	1378 lines	age_hours=0.1
+/root/immutable_evidence/drawdown_tracking.jsonl	2 lines	age_hours=683.2
+/root/immutable_evidence/errors.jsonl	0 lines	age_hours=683.5
+/root/immutable_evidence/execution_truth_v1.jsonl	10393 lines	age_hours=0.1
+/root/immutable_evidence/exhaustion_outcomes.jsonl	0 lines	age_hours=710.7
+/root/immutable_evidence/exhaustion_signals.jsonl	76 lines	age_hours=709.9
+/root/immutable_evidence/exhaustion_signals_clean.jsonl	57 lines	age_hours=709.8
+/root/immutable_evidence/exhaustion_signals_legacy_unkeyed.jsonl	19 lines	age_hours=709.8
+/root/immutable_evidence/exits.jsonl	0 lines	age_hours=683.5
+/root/immutable_evidence/experiment_ledger.jsonl	1 lines	age_hours=632.2
+/root/immutable_evidence/fills.jsonl	0 lines	age_hours=683.5
+/root/immutable_evidence/heartbeats.jsonl	2 lines	age_hours=682.6
+/root/immutable_evidence/kraken_fee_tier_history.jsonl	30 lines	age_hours=12.3
+/root/immutable_evidence/macro_events.jsonl	18 lines	age_hours=101.6
+/root/immutable_evidence/margin_derivatives_edge_history.jsonl	601 lines	age_hours=427.2
+/root/immutable_evidence/margin_derivatives_historical_rows.jsonl	3755 lines	age_hours=616.6
+/root/immutable_evidence/margin_full_intelligence_research.jsonl	59820 lines	age_hours=0.2
+/root/immutable_evidence/margin_research_outcomes.jsonl	47229 lines	age_hours=0.1
+/root/immutable_evidence/margin_score_calibration.jsonl	50424 lines	age_hours=467.3
+/root/immutable_evidence/momentum_signals.jsonl	14 lines	age_hours=167.6
+/root/immutable_evidence/mtf_entry_context.jsonl	90016 lines	age_hours=-0.0
+/root/immutable_evidence/naked_position_alerts.jsonl	1907 lines	age_hours=618.8
+/root/immutable_evidence/order_attempts_v1.jsonl	34 lines	age_hours=3.3
+/root/immutable_evidence/pending_cancel_shadow.jsonl	2 lines	age_hours=711.6
+/root/immutable_evidence/promotions.jsonl	0 lines	age_hours=683.5
+/root/immutable_evidence/regime_classification.jsonl	2 lines	age_hours=683.3
+/root/immutable_evidence/rejection_ledger_v1.jsonl	269406 lines	age_hours=-0.0
+/root/immutable_evidence/signal_eligible_cycles.jsonl	3019 lines	age_hours=637.7
+/root/immutable_evidence/signals.jsonl	0 lines	age_hours=683.5
+/root/immutable_evidence/wick_shadow.jsonl	26 lines	age_hours=0.5
+/root/immutable_evidence/wick_shadow_live.jsonl	11554 lines	age_hours=0.1
 
 === SYSTEMD gbot UNITS ===
 gbot-bear-capture.service                                                                                              loaded    active     running         GBOT Bear Regime Data Capture (PAPER, execution disabled)
@@ -167,7 +163,6 @@ gbot-phase1-watchdog.service                                                    
 gbot-rejection-ledger.service                                                                                          loaded    activating start     start GBOT prospective rejection ledger harvester (read-only, journald)
 gbot-v11-crawl.service                                                                                                 loaded    inactive   dead            GBOT v11 serialized deep-history crawl
 gbot-v11-mtf.service                                                                                                   loaded    inactive   dead            GBOT v11 trades->MTF bars converter
-gbot-v22-context-xbt-1s.service                                                                                        loaded    active     running         [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v22_context2020_backfill_fast_locked_1s.py XBTUSD
 gbot-watchlist.service                                                                                                 loaded    inactive   dead            GBOT Daily Watchlist (descriptive, manual-trading aid)
 gbot-wick-shadow.service                                                                                               loaded    inactive   dead            GBOT wick-aware exit shadow evaluator (READ-ONLY)
 v11-r11-zec-1788217609.service                                                                                         loaded    active     exited          [systemd-run] /root/georgeos/kraken-gateway/venv/bin/python /root/audit_scratch/v11_detached_crawl_worker_v1.py /root/georgeos/kraken-gateway.worktrees/gbot-v11-evidence-driven-trading-system/sandbox/v10-shadow-deploy-proposed crawl ZECUSD /root/georgeos/kraken-gateway/storage/research_trades_v11 3
